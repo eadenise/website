@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: 'Montserrat', sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -31,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ol, ul {
@@ -1475,7 +1477,7 @@ input, select, textarea {
 	form input[type="password"],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		border: 0;
 		background: #f4f4f4;
 		padding: 0.75em;
@@ -1592,7 +1594,7 @@ input, select, textarea {
 		-webkit-transition: background-color .25s ease-in-out;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: inline-block;
 		background-color: #222222;
 		color: #ffffff;
@@ -1600,6 +1602,15 @@ input, select, textarea {
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
+	}
+	.image-button img {
+		display: block;
+		width: 200px; /* adjust to your image */
+		height: auto;
+		}
+
+		.image-button:hover {
+		opacity: 0.85;
 	}
 
 		input[type="button"]:hover,
